@@ -223,11 +223,11 @@
 
 - [讯飞手写字api详细代码](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E8%AE%AF%E9%A3%9E%E6%89%8B%E5%86%99%E5%AD%97api.ipynb)
 
+<h3 id="chapter2">二、API1.使用水平</h3>‘
+
+<h3 id="chapter2">三、API2.使用比较分析</h3>
+<h3 id="chapter2">四、API3.使用后风险报告</h3>
+<h3 id="chapter2">五、API4.加分项平</h3>
 
 
 
-<h3 id="chapter2">一、API1.使用水平</h3>‘
-
-<h3 id="chapter2">一、API2.使用比较分析</h3>
-<h3 id="chapter2">一、API3.使用后风险报告</h3>
-<h3 id="chapter2">一、API4.加分项平</h3>
