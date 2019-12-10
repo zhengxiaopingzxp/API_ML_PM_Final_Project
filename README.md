@@ -11,11 +11,11 @@
 # 目录
 |产品的PRD设计|原型设计|机器学习之API的输出入展示
 |---------- | --- |---------- 
-|[PRD1-加值宣言](#chapter1) |[产品功能架构](#chapter14)|API输入与输出(#chapter18)
-|[PRE2-核心价值](#chapter2) |[流程图](#chapter15)|API1.使用水平(#chapter19) 
-|[PRD3-用户痛点宣言](#chapter3) |[全局说明](#chapter16)|API2.使用比较分析(#chapter20)
-|[产品简介](#chapter4) |[原型1.交互及界面设计](#chapter17) |API3.使用后风险报告(#chapter21) 
-|[产品背景](#chapter5) |[原型2.信息设计](#chapter17)|API4.加分项平(#chapter22)
+|[PRD1-加值宣言](#chapter1) |[产品功能架构](#chapter14)|[API输入与输出](#chapter18)
+|[PRE2-核心价值](#chapter2) |[流程图](#chapter15)|[API1.使用水平](#chapter19) 
+|[PRD3-用户痛点宣言](#chapter3) |[全局说明](#chapter16)|[API2.使用比较分析](#chapter20)
+|[产品简介](#chapter4) |[原型1.交互及界面设计](#chapter17) |[API3.使用后风险报告](#chapter21) 
+|[产品背景](#chapter5) |[原型2.信息设计](#chapter17)|[API4.加分项平](#chapter22)
 |[产品目标](#chapter6) |[原型3.原型文档](#chapter17)|---------- 
 |[用户画像](#chapter7) |[Axure交互及设计低保真原型](#chapter17) |---------- 
 |[用户需求](#chapter8) | |---------- 
