@@ -11,14 +11,14 @@
 # 目录
 |产品的PRD设计|原型设计|机器学习之API的输出入展示
 |---------- | --- |---------- 
-|[PRD1-加值宣言](#chapter1) |[产品功能架构](#chapter1)|---------- 
-|[PRE2-核心价值](#chapter2) |[流程图](#chapter1)|---------- 
-|[PRD3-用户痛点宣言](#chapter3) |[全局说明](#chapter1)|----------
-|[产品简介](#chapter4) |[原型1.交互及界面设计](#chapter1) |---------- 
-|[产品背景](#chapter5) |[原型2.信息设计](#chapter1)|----------
-|[产品目标](#chapter6) |[原型3.原型文档](#chapter1)|---------- 
-|[用户画像](#chapter7) |[原型4.口头操作说明](#chapter1) |---------- 
-|[用户需求](#chapter8) |[Axure交互及设计低保真原型](#chapter1) |---------- 
+|[PRD1-加值宣言](#chapter1) |[产品功能架构](#chapter14)|API输入与输出(#chapter18)
+|[PRE2-核心价值](#chapter2) |[流程图](#chapter15)|API1.使用水平(#chapter19) 
+|[PRD3-用户痛点宣言](#chapter3) |[全局说明](#chapter16)|API2.使用比较分析(#chapter20)
+|[产品简介](#chapter4) |[原型1.交互及界面设计](#chapter17) |API3.使用后风险报告(#chapter21) 
+|[产品背景](#chapter5) |[原型2.信息设计](#chapter17)|API4.加分项平(#chapter22)
+|[产品目标](#chapter6) |[原型3.原型文档](#chapter17)|---------- 
+|[用户画像](#chapter7) |[Axure交互及设计低保真原型](#chapter17) |---------- 
+|[用户需求](#chapter8) | |---------- 
 |[情景假设](#chapter9) | --- |---------- 
 |[问题与解决](#chapter10) | --- |---------- 
 |[考虑后不完成之项](#chapter11) | --- |---------- 
@@ -172,13 +172,13 @@
 
 # 第二部分：原型设计
 
-<h3 id="chapter2">一、产品架构图</h3>
+<h3 id="chapter14">一、产品架构图</h3>
 
 ![产品架构图](img/产品架构图.png)
-<h3 id="chapter2">二、产品流程图</h3>
+<h3 id="chapter15">二、产品流程图</h3>
 
 ![产品流程图](img/产品流程图.png)
-<h3 id="chapter2">三、原型的全局说明</h3>
+<h3 id="chapter16">三、原型的全局说明</h3>
 
 ###### 功能权限分为登录/未登录两个状态：
 - 登陆状态：能及时的查看个人稿箱，并且能进行备份保存和导出等操作。
@@ -187,15 +187,16 @@
 - 首页：首页的功能包括记录信息、撰写文章和文本审核。
 - 我的：我的页面可以登陆/注册，和查看个人稿箱等。
 
-<h3 id="chapter2">四、Axure原型文档交互展示</h3>
+<h3 id="chapter17">四、Axure原型文档交互展示</h3>
 
-####  [Axure原型文档交互展示](http://nfunm104.gitee.io/api_final_exam)
+###  [Axure原型文档交互展示](http://nfunm104.gitee.io/api_final_exam)
+### [原型下载地址](https://gitee.com/NFUNM104/API_final_exam)
 ![产品交互及设计低保真原型](img/hui.jpg)
 
 
 # 第三部分：机器学习之API的输出入展示
 
-<h3 id="chapter2">一、API输入与输出</h3>
+<h3 id="chapter18">一、API输入与输出</h3>
 
 ###### 新闻摘要api：
 - 在极短的时间内生成概括性强的新闻摘要。
@@ -221,7 +222,7 @@
 
 - [讯飞手写字api详细代码](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E8%AE%AF%E9%A3%9E%E6%89%8B%E5%86%99%E5%AD%97api.ipynb)
 
-<h3 id="chapter2">二、API1.使用水平</h3>
+<h3 id="chapter19">二、API1.使用水平</h3>
 
 - 输入：语音或者本地音频；输出：文字
 - 输入：图片；输出：文字
@@ -232,7 +233,7 @@
 
 - [所有代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/tree/master/code)
 
-<h3 id="chapter2">三、API2.使用比较分析</h3>
+<h3 id="chapter20">三、API2.使用比较分析</h3>
 
 ### 手写字识别比较
 
@@ -247,7 +248,7 @@
 |服务评估|仅有api文档且无示例代码，应用场景和参数不完整，无法进行进一步开发调用|[具有详细的说明](https://www.xfyun.cn/services/wordRecg)及[api调用教程](https://www.xfyun.cn/doc/words/wordRecg/API.html#%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E),且参数划分完整，提供业务参数，可扩展性强|
 总结：通过对比调取百度ai开放平台和讯飞开放平台提供的手写字识别api，对比输出结果，综合上述内容，最终选定使用讯飞开发平台提供的api服务。
 
-<h3 id="chapter2">四、API3.使用后风险报告</h3>
+<h3 id="chapter21">四、API3.使用后风险报告</h3>
 
 - 自行进行代码测试比较，百度api和讯飞api利用同一图片进行比较，讯飞api识别率更高，但仍存在一些误差，可能会对用户体验造成影响，但本app可进行自定义编辑，可对错误识别的文字进行更正，且增设了文本纠错功能。
 
@@ -258,7 +259,7 @@ API市场竞争程度 | bing搜索排行为第一 | bing搜索排行第三 | 讯
 定价 | [百度ai开放平台手写字api产品价格](https://ai.baidu.com/ai-doc/OCR/9k3h7xuv6)|[讯飞开放平台手写字api](https://www.xfyun.cn/services/wordRecg)| 从免费额度来看，百度提供每日50次免费调用量，讯飞提供90天10w次调用的免费调用量。但是百度可进行按套餐付费与按量付费两种方式，讯飞仅支持套餐。
 短期来讲可使用讯飞的免费额度，后续等百度服务质量与api接入服务更为完善再考虑转换
 
-<h3 id="chapter2">五、API4.加分项平</h3>
+<h3 id="chapter22">五、API4.加分项平</h3>
 - 用到的的api有新闻摘要api、文本审核api、文本纠错api、文本标签api、手写字识别api、图像识别api.
 
 - [新闻摘要代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81.ipynb)
