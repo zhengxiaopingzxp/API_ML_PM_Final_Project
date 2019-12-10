@@ -223,11 +223,53 @@
 
 - [讯飞手写字api详细代码](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E8%AE%AF%E9%A3%9E%E6%89%8B%E5%86%99%E5%AD%97api.ipynb)
 
-<h3 id="chapter2">二、API1.使用水平</h3>‘
+<h3 id="chapter2">二、API1.使用水平</h3>
+- 输入：语音或者本地音频；输出：文字
+- 输入：图片；输出：文字
+- 输入：完整新闻稿；输出：新闻摘要
+- 输入：完整新闻稿；输出：文本标签
+- 输入：完整新闻稿；输出：高亮的文本错误
+- 输入：完整新闻稿；输出：高亮的内容错误
+
+- [所有代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/tree/master/code)
 
 <h3 id="chapter2">三、API2.使用比较分析</h3>
+
+### 手写字识别比较
+通过搜索引擎发现排名较为靠前的百度ai开放平台和讯飞开放平台提供手写字识别服务并对此进行比较
+|对比项|百度|讯飞|
+|---|---|---|
+|代码比较|[]()|[]()|
+|使用效果|对于字迹潦草的字体根本无法输出文字，仅使用与字体工整的手写字|对于字迹潦草的字体，仍然能给出部分输出文字，相比百度而已文字的识别准确度也比较高，可查看代码对比|
+|成熟度|[2019-12-09刚刚推出最新版的api文档](https://ai.baidu.com/ai-doc/OCR/hk3h7y2qq)，调用方法和过程比较繁琐，没有给定参考代码，服务刚刚推出，处于起步阶段|[有详细的api调用文档及说明](https://www.xfyun.cn/doc/words/wordRecg/API.html#%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E)，并且有相应开发语言的调用示例代码，服务较为成熟|
+|定价|[百度ai开放平台手写字api产品价格](https://ai.baidu.com/ai-doc/OCR/9k3h7xuv6)|[讯飞开放平台手写字api](https://www.xfyun.cn/services/wordRecg)|
+|服务评估|仅有api文档且无示例代码，应用场景和参数不完整，无法进行进一步开发调用|[具有详细的说明](https://www.xfyun.cn/services/wordRecg)及[api调用教程](https://www.xfyun.cn/doc/words/wordRecg/API.html#%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E),且参数划分完整，提供业务参数，可扩展性强|
+总结：通过对比调取百度ai开放平台和讯飞开放平台提供的手写字识别api，对比输出结果，综合上述内容，最终选定使用讯飞开发平台提供的api服务。
+
 <h3 id="chapter2">四、API3.使用后风险报告</h3>
+
+- 自行进行代码测试比较，百度api和讯飞api利用同一图片进行比较，讯飞api识别率更高，但仍存在一些误差，可能会对用户体验造成影响，但本app可进行自定义编辑，可对错误识别的文字进行更正，且增设了文本纠错功能。
+
+对比项 | 百度 | 讯飞 | 总结
+---|---|---|---
+API市场竞争程度 | bing搜索排行为第一 | bing搜索排行第三 | 讯飞搜索引擎排名较前，且是api说明介绍页面，说明经常更新，服务推出较早，比较成熟。百度仅显示文档调用页面，说明并不是核心业务，推出时间较短。
+输入输出限制 | 仅支持中文字体及数字 | 支持中英文自动识别 | 对于手写字体的全面性上，讯飞的服务更为完善
+定价 | [百度ai开放平台手写字api产品价格](https://ai.baidu.com/ai-doc/OCR/9k3h7xuv6)|[讯飞开放平台手写字api](https://www.xfyun.cn/services/wordRecg)| 从免费额度来看，百度提供每日50次免费调用量，讯飞提供90天10w次调用的免费调用量。但是百度可进行按套餐付费与按量付费两种方式，讯飞仅支持套餐。
+短期来讲可使用讯飞的免费额度，后续等百度服务质量与api接入服务更为完善再考虑转换
+
 <h3 id="chapter2">五、API4.加分项平</h3>
+- 用到的的api有新闻摘要api、文本审核api、文本纠错api、文本标签api、手写字识别api、图像识别api.
+
+- [新闻摘要代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81.ipynb)
+
+- [文本纠错的代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99%E5%92%8C%E6%96%87%E6%9C%AC%E5%AE%A1%E6%A0%B8.ipynb)
 
 
+- [文本审核的代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99%E5%92%8C%E6%96%87%E6%9C%AC%E5%AE%A1%E6%A0%B8.ipynb)
 
+- [文本标签的代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E6%96%87%E6%9C%AC%E6%A0%87%E7%AD%BE.ipynb)
+
+
+- [百度手写字api详细代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E7%99%BE%E5%BA%A6%E6%89%8B%E5%86%99%E5%AD%97api.ipynb)
+
+- [讯飞手写字api详细代码](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E8%AE%AF%E9%A3%9E%E6%89%8B%E5%86%99%E5%AD%97api.ipynb)
