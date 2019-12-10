@@ -197,8 +197,6 @@
 
 <h3 id="chapter2">一、API输入与输出</h3>
 
-
-
 ###### 新闻摘要api：
 - 在极短的时间内生成概括性强的新闻摘要。
 [详细的代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81.ipynb)
@@ -224,6 +222,7 @@
 - [讯飞手写字api详细代码](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E8%AE%AF%E9%A3%9E%E6%89%8B%E5%86%99%E5%AD%97api.ipynb)
 
 <h3 id="chapter2">二、API1.使用水平</h3>
+
 - 输入：语音或者本地音频；输出：文字
 - 输入：图片；输出：文字
 - 输入：完整新闻稿；输出：新闻摘要
@@ -236,7 +235,9 @@
 <h3 id="chapter2">三、API2.使用比较分析</h3>
 
 ### 手写字识别比较
-通过搜索引擎发现排名较为靠前的百度ai开放平台和讯飞开放平台提供手写字识别服务并对此进行比较
+
+- 通过搜索引擎发现排名较为靠前的百度ai开放平台和讯飞开放平台提供手写字识别服务并对此进行比较
+
 |对比项|百度|讯飞|
 |---|---|---|
 |代码比较|[]()|[]()|
