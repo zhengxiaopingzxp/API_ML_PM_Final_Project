@@ -201,22 +201,25 @@
 
 ###### 新闻摘要api：
 - 在极短的时间内生成概括性强的新闻摘要。
-
+[详细的代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E6%96%B0%E9%97%BB%E6%91%98%E8%A6%81.ipynb)
 
 ###### 文本纠错api：
 - 对文本内容进行和纠错。
+[详细的代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99%E5%92%8C%E6%96%87%E6%9C%AC%E5%AE%A1%E6%A0%B8.ipynb)
 
 ###### 文本审核api：
 - 对文本内容进行和纠错。
+[详细的代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99%E5%92%8C%E6%96%87%E6%9C%AC%E5%AE%A1%E6%A0%B8.ipynb)
 
 ###### 文本标签api：
 - 对文章进行核心关键词分析，生成标签。
+[详细的代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E6%96%87%E6%9C%AC%E6%A0%87%E7%AD%BE.ipynb)
 
-###### 阿里的实时语音识别api:
-- 将用语音记录的信息转化成文字。
 
 ###### 手写字识别api：
 - 将在采访流程的手写记录的信息直接转成文字。
+[百度手写字api详细代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E7%99%BE%E5%BA%A6%E6%89%8B%E5%86%99%E5%AD%97api.ipynb)
+[讯飞手写字api详细代码(https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E8%AE%AF%E9%A3%9E%E6%89%8B%E5%86%99%E5%AD%97api.ipynb)
 
 ###### 图像识别api：
 - 将采访中所用的图片资料（采访对象的PPT、发言稿等）直接转换成文字。
