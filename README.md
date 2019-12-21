@@ -15,10 +15,10 @@
 |[PRE2-核心价值](#chapter2) |[流程图](#chapter15)|[API1.使用水平](#chapter19) 
 |[PRD3-用户痛点宣言](#chapter3) |[全局说明](#chapter16)|[API2.使用比较分析](#chapter20)
 |[产品简介](#chapter4) |[原型1.交互及界面设计](#chapter17) |[API3.使用后风险报告](#chapter21) 
-|[产品背景](#chapter5) |[原型2.信息设计](#chapter17)|[API4.加分项平](#chapter22)
+|[产品背景](#chapter5) |[原型2.信息设计](#chapter17)|[API4.加分项](#chapter22)
 |[产品目标](#chapter6) |[原型3.原型文档](#chapter17)|---------- 
 |[用户画像](#chapter7) |[Axure交互及设计低保真原型](#chapter17) |---------- 
-|[用户需求](#chapter8) | |---------- 
+|[用户需求](#chapter8) |[原型4.口头操作说明 ](#chapter17)|---------- 
 |[情景假设](#chapter9) | --- |---------- 
 |[问题与解决](#chapter10) | --- |---------- 
 |[考虑后不完成之项](#chapter11) | --- |---------- 
@@ -195,6 +195,11 @@
 ###  [Axure原型文档交互展示](http://nfunm104.gitee.io/api_final_exam)
 ### [原型下载地址](https://gitee.com/NFUNM104/API_final_exam)
 ![产品交互及设计低保真原型](img/hui.jpg)
+
+<h3 id="chapter17">原型4.口头操作说明</h3>
+
+- 已经在课堂上完成此部分。
+
 
 
 # 第三部分：机器学习之API的输出入展示
