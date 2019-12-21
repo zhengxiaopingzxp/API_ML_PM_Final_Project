@@ -252,7 +252,7 @@
 |代码比较|[百度手写字api详细代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E7%99%BE%E5%BA%A6%E6%89%8B%E5%86%99%E5%AD%97api.ipynb)|[讯飞手写字api详细代码](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E8%AE%AF%E9%A3%9E%E6%89%8B%E5%86%99%E5%AD%97api.ipynb)|
 |使用效果|对于字迹潦草的字体根本无法输出文字，仅使用与字体工整的手写字|对于字迹潦草的字体，仍然能给出部分输出文字，相比百度而已文字的识别准确度也比较高，可查看代码对比|
 |成熟度|[2019-12-09刚刚推出最新版的api文档](https://ai.baidu.com/ai-doc/OCR/hk3h7y2qq)，调用方法和过程比较繁琐，没有给定参考代码，服务刚刚推出，处于起步阶段|[有详细的api调用文档及说明](https://www.xfyun.cn/doc/words/wordRecg/API.html#%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E)，并且有相应开发语言的调用示例代码，服务较为成熟|
-|定价|[百度ai开放平台手写字api产品价格](https://ai.baidu.com/ai-doc/OCR/9k3h7xuv6)|[讯飞开放平台手写字api](https://www.xfyun.cn/services/wordRecg)|
+|定价|每日 50000 次免费调用量，开通按量后付费。调用失败不计费[百度ai开放平台手写字api产品价格](https://ai.baidu.com/ai-doc/OCR/9k3h7xuv6)|免费次数为90天10万服务量，若是付费的话分为三个套餐，1万服务量350元/年；10万服务量3200/年；100万服务量30000元/年[讯飞开放平台手写字api](https://www.xfyun.cn/services/wordRecg)|
 |服务评估|仅有api文档且无示例代码，应用场景和参数不完整，无法进行进一步开发调用|[具有详细的说明](https://www.xfyun.cn/services/wordRecg)及[api调用教程](https://www.xfyun.cn/doc/words/wordRecg/API.html#%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E),且参数划分完整，提供业务参数，可扩展性强|
 
 - 总结：通过对比调取百度ai开放平台和讯飞开放平台提供的手写字识别api，对比输出结果，综合上述内容，最终选定使用讯飞开发平台提供的api服务。
@@ -262,7 +262,7 @@
 |---|---|---|
 |使用效果|输入一段新闻时，直接生成词云，这样那个关键字占的比重较大也一目了然|输入一段新闻时，生成的结果时每个词的的权重，不太了解权重的人会花时间了解权重的含义，用户体验差|
 |成熟度|[2019-12-09刚刚推出最新版的api文档](https://ai.baidu.com/ai-doc/OCR/hk3h7y2qq)，调用方法和过程比较繁琐，没有给定参考代码，服务刚刚推出，处于起步阶段|[有详细的api调用文档及说明](https://www.xfyun.cn/doc/words/wordRecg/API.html#%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E)，并且有相应开发语言的调用示例代码，服务较为成熟|
-|定价|[百度ai开放平台文本标签产品价格](https://ai.baidu.com/ai-doc/NLP/Sk3pmn0o5)|讯飞这个平台对文章标签没有具体的价格标明，但是每天有20000次限额，如果需要提高额度，需要进行实名认证。[具体的说明](https://console.xfyun.cn/services/ke)|
+|定价|0.0025元/次，超过额度即按量计费[百度ai开放平台文本标签产品价格](https://ai.baidu.com/ai-doc/NLP/Sk3pmn0o5)|讯飞这个平台对文章标签没有具体的价格标明，但是每天有20000次限额，如果需要提高额度，需要进行实名认证。[具体的说明](https://console.xfyun.cn/services/ke)|
 |服务评估|该平台最近在升，所以打开其技术文档是没有任何内容的，服务性不好。|[具有详细的说明](https://www.xfyun.cn/doc/nlp/keyword-extraction/API.html#%E6%8E%A5%E5%8F%A3%E8%BF%94%E5%9B%9E%E5%8F%82%E6%95%B0),且python的实例代码可以直接下载运行，参考性强||
 
 ### 文章纠错API比较
