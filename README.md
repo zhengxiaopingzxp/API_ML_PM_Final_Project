@@ -249,7 +249,7 @@
 
 |对比项|百度|讯飞|
 |---|---|---|
-|代码比较|[]()|[]()|
+|代码比较|[百度手写字api详细代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E7%99%BE%E5%BA%A6%E6%89%8B%E5%86%99%E5%AD%97api.ipynb)|[讯飞手写字api详细代码](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/blob/master/code/%E8%AE%AF%E9%A3%9E%E6%89%8B%E5%86%99%E5%AD%97api.ipynb)|
 |使用效果|对于字迹潦草的字体根本无法输出文字，仅使用与字体工整的手写字|对于字迹潦草的字体，仍然能给出部分输出文字，相比百度而已文字的识别准确度也比较高，可查看代码对比|
 |成熟度|[2019-12-09刚刚推出最新版的api文档](https://ai.baidu.com/ai-doc/OCR/hk3h7y2qq)，调用方法和过程比较繁琐，没有给定参考代码，服务刚刚推出，处于起步阶段|[有详细的api调用文档及说明](https://www.xfyun.cn/doc/words/wordRecg/API.html#%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E)，并且有相应开发语言的调用示例代码，服务较为成熟|
 |定价|[百度ai开放平台手写字api产品价格](https://ai.baidu.com/ai-doc/OCR/9k3h7xuv6)|[讯飞开放平台手写字api](https://www.xfyun.cn/services/wordRecg)|
