@@ -352,4 +352,11 @@ API市场竞争程度 | bing搜索排行为第一 | bing搜索排行第三 | 讯
 - [产品原型展示和信息设计](#chapter17)包括交互及界面设计、信息设计、原型文档的所有内容。
 - [Gitee-原型下载地址](#chapter17)
 
-## 
+# 使用水平：API之输入及输出
+
+### [所有代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/tree/master/code)
+
+### [API输入与输出](#chapter18)
+### [API2.使用比较分析](#chapter20)
+### [API3.使用后风险报告](#chapter21) 
+### [API4.加分项](#chapter22)
