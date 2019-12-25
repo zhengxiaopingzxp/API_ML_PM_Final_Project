@@ -360,3 +360,11 @@ API市场竞争程度 | bing搜索排行为第一 | bing搜索排行第三 | 讯
 ### [API2.使用比较分析](#chapter20)
 ### [API3.使用后风险报告](#chapter21) 
 ### [API4.加分项](#chapter22)
+
+# 清单
+序号| 名字 
+---|---
+1|[参考文献:大融合背景下高校学生自媒体的立身之策——以“佛系学习社”为例 ](https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2019&filename=SHIT201909142&uid=WEEvREcwSlJHSldRa1FhdXNXaEhoOHRvcktTUUZCYk1wTjB5aHpCVU13Yz0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!&v=MDM2NzVCWm9SOGVYMUx1eFlTN0RoMVQzcVRyV00xRnJDVVJMT2VadVJtRnkvbFZMdkxOaVhDZXJHNEg5ak1wbzU=)
+2|[Axure原型文档交互展示](http://nfunm104.gitee.io/api_final_exam)
+3|[原型下载地址](https://gitee.com/NFUNM104/API_final_exam)
+4|[所有代码示例](https://github.com/zhengxiaopingzxp/API_ML_PM_Final_Project/tree/master/code)
