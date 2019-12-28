@@ -180,6 +180,7 @@
 <h3 id="chapter14">一、产品架构图</h3>
 
 ![产品架构图](img/产品架构图.png)
+
 <h3 id="chapter15">二、产品流程图</h3>
 
 ![产品流程图](img/产品流程图.png)
@@ -194,7 +195,7 @@
 
 <h3 id="chapter17">四、Axure原型文档交互展示</h3>
 
-###  [Axure原型文档交互展示](http://nfunm104.gitee.io/api_final_exam)
+### [Axure原型文档交互展示](http://nfunm104.gitee.io/api_final_exam)
 ### [原型下载地址](https://gitee.com/NFUNM104/API_final_exam)
 ![产品交互及设计低保真原型](img/hui.jpg)
 
